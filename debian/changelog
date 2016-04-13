@@ -1,4 +1,4 @@
-python-pyramid-multiauth (0.8.0-1) UNRELEASED; urgency=medium
+python-pyramid-multiauth (0.8.0-1) unstable; urgency=medium
 
   [ Denis Laxalde ]
   * Initial release.
@@ -8,4 +8,4 @@ python-pyramid-multiauth (0.8.0-1) UNRELEASED; urgency=medium
   * Build a python 3 binary package.
   * Use pybuild
 
- -- David Douard <david.douard@logilab.fr>  Wed, 13 Apr 2016 15:25:34 +0200
+ -- David Douard <david.douard@logilab.fr>  Wed, 13 Apr 2016 17:56:49 +0200
