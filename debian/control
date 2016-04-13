@@ -1,0 +1,23 @@
+Source: python-pyramid-multiauth
+Section: python
+Priority: extra
+Maintainer: Denis Laxalde <denis.laxalde@logilab.fr>
+Build-Depends:
+ debhelper (>= 9),
+ python,
+ python-setuptools,
+ python-pyramid,
+Standards-Version: 3.9.6
+Homepage: http://pypi.python.org/pypi/pyramid_multiauth
+#Vcs-Browser:
+#Vcs-XXX:
+
+Package: python-pyramid-multiauth
+Architecture: all
+Depends:
+ ${python:Depends},
+ ${misc:Depends}
+Description: authentication policy for the Pyramid web framework
+ The pyramid_multiauth package provides MultiAuthenticationPolicy: a Pyramid
+ authentication policy that proxies to a stack of other IAuthenticationPolicy
+ objects, to provide a combined auth solution from individual pieces.
