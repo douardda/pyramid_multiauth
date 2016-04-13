@@ -1,4 +1,2 @@
-pyramid_multiauth.egg-info/PKG-INFO
-pyramid_multiauth.egg-info/requires
-pyramid_multiauth.egg-info/requires.txt
+pyramid_multiauth.egg-info/*
 
